@@ -28,5 +28,7 @@ export class HeroComponent {
   resetForm() {
     this.name = 'ironman';
     this.age = 45;
+
+    // document.querySelector('h1')!.innerHTML = '<h1>Desde Angular</h1>';
   }
 }
